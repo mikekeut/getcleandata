@@ -5,7 +5,7 @@ This document describes the run_analysis.R and tidy_data_set.txt files which wer
 
 The run_analysis.R takes Samsung raw data as input and outputs a tidy dataset which summarizes the raw data by participant and activity. The script begins by setting the necessary library and working directory. It then reads in the training and testing feature data sets, subject ID numbers, and activity identifiers. These files are then merged. Feature names are then read in, and assigned as column labels to the feature variables. Then all variables are removed except activity, subject, and the means and standard deviation features. Activity identifiers (1 through 6) are then replaced with descriptive activity names (e.g. "walking".) Activity is then reassgined to be a factor variable and the dataset is transformed into a tbl_df for use with dplyr. The data is then grouped by activity and subject, and means are calculated for each variable by activity and subject. The resulting table is written to the "tidy_data_set.txt" file.
 
-<b>Codebook:</b>
+<b>Codebook</b>
 
 The following variables are contained in "tidy_data_set.txt"
 
