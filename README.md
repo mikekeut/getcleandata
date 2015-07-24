@@ -9,6 +9,7 @@ The following variables are contained in "tidy_data_set.txt"
 
 activity: The activity the subject was doing (laying, sitting, standing, walking, walking downstairs, or walking upstairs)
 subject: The subject's id number (ranges from 1-30)
+
 Variables in columns 3 through 81 are mean values for each feature, averaged across the sampling window.
 
 The information below is copied from the README.txt file provided with the raw data:
